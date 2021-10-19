@@ -153,36 +153,7 @@ export default class gameboard extends React.Component {
         });
         this.initializeBoard();
     }
-     winGame(){
-        if (board[0] != START && board[0] === board[1] && board [1] === board[2] && board[2] === board[3] && board[3] === board[4]){
-            return board[0]
-        }else if (board[5] != START && board[5] === board[6] && board [6] === board[7] && board[7] === board[8] && board[8] === board[9]){
-            return board[5]
-        }else if (board[10] != START && board[10] === board[11] && board [11] === board[12] && board[12] === board[13] && board[13] === board[14]){
-        return board[10]
-        }else if (board[15] != START && board[15] === board[16] && board [16] === board[17] && board[17] === board[18] && board[18] === board[19]){
-        return board[15]
-        }else if (board[20] != START && board[20] === board[21] && board [21] === board[22] && board[22] === board[23] && board[23] === board[24]){
-    return board[20]
-        }else if (board[0] != START && board[0] === board[5] && board [5] === board[10] && board[10] === board[15] && board[15] === board[20]){
-        return board[0]
-        }else if (board[1] != START && board[1] === board[6] && board [6] === board[11] && board[11] === board[16] && board[16] === board[21]){
-        return board[1]
-        }else if (board[2] != START && board[2] === board[7] && board [7] === board[12] && board[12] === board[17] && board[17] === board[22]){
-            return board[2]
-         }else if (board[3] != START && board[3] === board[8] && board [8] === board[13] && board[13] === board[18] && board[18] === board[23]){
-            return board[3]
-        }else if (board[4] != START && board[4] === board[9] && board [9] === board[14] && board[14] === board[19] && board[19] === board[24]){
-            return board[4]
-        }else if (board[0] != START && board[0] === board[6] && board [6] === board[12] && board[12] === board[18] && board[18] === board[24]){
-            return board[0]
-        }else if (board[4] != START && board[4] === board[8] && board [8] === board[12] && board[12] === board[16] && board[16] === board[20]){
-            return board[15]
-        }else{
-             return ""
-
-}
-}
+  
 
     render() {
 
